@@ -15,7 +15,7 @@
 ![image](https://github.com/hongjiapeng/MaterialDesignInXaml/blob/master/Assets/gif/TabMenu2.gif)   
 
 #### Redesign Instagram
-![image](https://github.com/hongjiapeng/MaterialDesignInXaml/blob/master/Assets/gif/RedesignInstagram.gif)  
+![image](https://github.com/hongjiapeng/MaterialDesignInXaml/blob/master/Assets/gif/Redesign%20Instagram.gif)  
 
 #### AnimatedColorfulMenu
 ![image](https://github.com/hongjiapeng/MaterialDesignInXaml/blob/master/Assets/gif/AnimatedColorfulMenu.gif)   
