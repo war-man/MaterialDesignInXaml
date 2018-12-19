@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopUpAndNav", "PopUpAndNav\PopUpAndNav.csproj", "{17360BA4-A92B-486A-A522-3ECD422D828B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17360BA4-A92B-486A-A522-3ECD422D828B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17360BA4-A92B-486A-A522-3ECD422D828B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17360BA4-A92B-486A-A522-3ECD422D828B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17360BA4-A92B-486A-A522-3ECD422D828B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9D0280A-DDB5-404F-8FEB-AD829A86B6E9}
+	EndGlobalSection
+EndGlobal

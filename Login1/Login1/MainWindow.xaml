@@ -1,0 +1,59 @@
+﻿<Window x:Class="Login1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d" Height="400" Width="600" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" MouseMove="Window_MouseMove" AllowsTransparency="True" Background="Transparent">
+    <Grid>
+        <Rectangle RadiusY="12" RadiusX="12" Fill="White"/>
+        <Image Margin="310,0,0,0" Source="Images\welcome.jpeg" Stretch="UniformToFill"/>
+        <Rectangle Margin="310,0,0,0" RadiusY="12" RadiusX="12">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#CC935E12" Offset="1"/>
+                    <GradientStop Color="#CCEA4646"/>
+                    <GradientStop Color="#CCB89128" Offset="0.566"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <StackPanel Margin="20,10,290,10">
+            <Label Content="Login" FontFamily="Segoe UI Black" FontSize="24" Margin="0 10" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Foreground="#707070"><Run Text="Do not have an account? "/></TextBlock>
+                <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Foreground="#FF2468AC"><Run Text="Create an account,"/></TextBlock>
+            </StackPanel>
+            <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Foreground="#707070"><Run Text="That will take less than 1 minute."/></TextBlock>
+            <StackPanel Margin="0 15" Orientation="Horizontal">
+                <materialDesign:PackIcon Kind="Account" VerticalAlignment="Center" Foreground="#707070"/>
+                <TextBox materialDesign:HintAssist.Hint="UserId" Width="200" Margin="5"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <materialDesign:PackIcon Kind="Key" VerticalAlignment="Center" Foreground="#707070"/>
+                <PasswordBox materialDesign:HintAssist.Hint="Password" Width="200" Margin="5"/>
+            </StackPanel>
+            <Grid>
+                <CheckBox Content="Remember me" Margin="5,10" Foreground="#707070"/>
+                <Label Content="I forgot my password" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10" Foreground="#707070"/>
+            </Grid>
+            <Button Margin="10 5" HorizontalAlignment="Center" Content="LOGIN" FontFamily="Impact" FontSize="18" Width="100" Background="#FF8D6DC5" BorderBrush="#FF8D6DC5"/>
+            <StackPanel Orientation="Horizontal" Margin="10 25">
+                <Label Content="Or go with" Foreground="#707070" VerticalAlignment="Center"/>
+                <Button HorizontalAlignment="Center" FontFamily="Impact" FontSize="18" Background="#FF3D56AC" BorderBrush="#FF3D56AC">
+                    <materialDesign:PackIcon Kind="Qqchat" VerticalAlignment="Center" Foreground="White"/>
+                </Button>
+                <Button HorizontalAlignment="Center" Margin="15,0"  FontFamily="Impact" FontSize="18" Background="#FF38ABD6" BorderBrush="#FF01BAFF">
+                    <materialDesign:PackIcon Kind="Wechat" Foreground="White" VerticalAlignment="Center"/>
+                </Button>
+                <Button HorizontalAlignment="Center" FontFamily="Impact" FontSize="18"  Background="#FFE05959" BorderBrush="#FFE05959">
+                    <materialDesign:PackIcon Kind="Facebook" VerticalAlignment="Center" Foreground="White"/>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Margin="310 50 0 50">
+            <TextBlock Text="Welcome" Foreground="White" HorizontalAlignment="Center" FontSize="48" FontFamily="Champagne &amp; Limousines" FontWeight="Bold"/>
+            <TextBlock Text="Make the impossible possible, the possible easy and the elegant easy" Foreground="White" HorizontalAlignment="Center" Width="280" FontSize="24" FontFamily="Champagne &amp; Limousines" TextWrapping="Wrap" TextAlignment="Center" Margin="0,50,0,0"/>
+            <TextBlock Text="Jabin Hong" Foreground="White" FontSize="18" FontFamily="Champagne &amp; Limousines" TextWrapping="Wrap" TextAlignment="Right" Margin="10"/>
+        </StackPanel>
+    </Grid>
+</Window>
